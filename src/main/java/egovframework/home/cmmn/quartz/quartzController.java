@@ -11,11 +11,11 @@ public class quartzController extends QuartzJobBean {
  				
  		int random = (int)(Math.random()*100+1);
  		
- 		System.out.println("======================================");
+ 		System.out.println("====================================");
  		System.out.println("exampleJob......" + random);
  		System.out.println("mail 수신자 조회 로직 실행");
  		System.out.println("mail 전송 로직 실행");
- 		System.out.println("======================================");
+ 		System.out.println("====================================");
  		 		
  	}
 
